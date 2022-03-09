@@ -1,0 +1,105 @@
+
+<html lang="vi"
+    __fvdsurfcanyoninserted="1"
+    class="
+        clickberry-extension
+        clickberry-extension-standalone
+        clickberry-extension
+        clickberry-extension-standalone
+        clickberry-extension
+        clickberry-extension-standalone
+    "
+>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="image/png" href="./birthdayCake.png" />
+    <title>Happy Birthday </title>
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        window.open = function () { };
+        window.print = function () { };
+        // Support hover state for mobile.
+        if (false) {
+            window.ontouchstart = function () { };
+        }
+    </script>
+    <script type="text/javascript"
+            src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script>
+    <meta content="clickberry-extension-here" />
+    <style>
+        img{
+            width: 100px;
+            height: 125px;
+        }
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <audio id="audio" autoplay>
+        <source id="mp3" src="./music.mp3  ? rel = 0 & autoplay = 1" type="audio/mp3">
+    </audio>
+	<img id="img1" src="./img2.jpg" alt="" />
+	<img id="img1" src="./img1.png" alt="" />
+    	<img id="img1" src="./img1.png" alt="" />
+	<img id="img1" src="./img1.png" alt="" />
+	<img id="img1" src="./img2.jpg" alt="" />
+
+    <link href="https://fonts.googleapis.com/css?family=Wendy+One"
+          rel="stylesheet"
+          type="text/css" />
+
+    <div class="pyro">
+        <div class="before">
+
+        </div>
+        <div class="after">
+
+        </div>
+        <div class="container">
+            <!-- 2. Dòng chữ Happy Birthday-->
+            <div class="balloon">
+                <div><span>H</span></div>
+                <div><span>A</span></div>
+                <div><span>P</span></div>
+                <div><span>P</span></div>
+                <div><span>Y</span></div>
+                <div><span>B</span></div>
+                <div><span>I</span></div>
+                <div><span>R</span></div>
+                <div><span>T</span></div>
+                <div><span>H</span></div>
+                <div><span>D</span></div>
+                <div><span>A</span></div>
+                <div><span>Y</span></div>
+            </div>
+            <div class="avatar">
+                <!-- 3. Avatar  -->
+                <img src="./avt.jpg" alt="" class="avatar__img" onclick="showMessage()" />
+                <!-- 4. Tên  -->
+                <h1 class="avatar"> <a href="https://www.facebook.com/profile.php?id=100015331996614">Hải Nguyễn</h1>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+        function showMessage() {
+            // 6. Lời nhắn hiện ra khi bấm vào tên hoặc avatar
+            swal({
+                title: "Chia Buồn Cùng GĐ",
+
+                text: "❤️️❤️️Ngày hôm nay là ngày đặc biệt của cháu N.P.Hải,các Bác chúc cháu: Có một Bầu trời sức khỏe, Một biển cả tình thương cùng ánh Đại Dương hạnh phúc và chúc cháu Thành Đạt – Thành Công hơn nữa trên con đường bắn cá && chẵn-lẻ-tài-xỉu.❤️️❤️️❤️️❤️️",
+                button: {
+                    text: "❤️️❤️️❤️️❤️️",
+                },
+            });
+        }
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
